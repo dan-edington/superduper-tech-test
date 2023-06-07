@@ -17,6 +17,10 @@ npm run dev
 
 4. Navigate to [http://localhost:5173](http://localhost:5173)
 
+## Test Wallet
+
+If your wallet is empty, you can use a test wallet address instead. In `src/Components/App/AppSlice.ts`, uncomment the `walletAddress` in the `fetchNfts()` function.
+
 ## TODO
 
 Given more time I would:

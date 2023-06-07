@@ -17,7 +17,7 @@ const fetchNfts = createAsyncThunk('app/fetchNfts', async (_, { getState, reject
   const state = getState() as RootState;
   const { connected, walletAddress } = state.app;
 
-  // const testWalletAddress = '0x154B4045F07B48C3B75D73a3f6C7C11Dfec95b4a';
+  // const walletAddress = '0x154B4045F07B48C3B75D73a3f6C7C11Dfec95b4a';
 
   if (connected && walletAddress) {
     try {
