@@ -25,7 +25,9 @@ If your wallet is empty, you can use a test wallet address instead. In `src/Comp
 
 Given more time I would:
 
+- Improve overall design
 - Add loading states
+- Add support for animated NFTs
 - Make accessible
 - Make layout more responsive
 - Improve layout algorithm so NFTs are displayed better (no overlapping etc.)
